@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+
+<body>
+ <form action="./moreinfor.html" method="get">
+
+    <fieldset>
+        <legend>登入資訊</legend>
+        <p>帳號：<input type="text" name="username" value="username"></p>
+        <p>密碼：<input type="password" name="password"></p>
+    </fieldset>
+   
+    <fieldset>
+        <legend>個人資訊</legend>
+        性別：
+            <input type="radio" name="gender" value="male" id="male"><label for="male">公的</label>
+            <input type="radio" name="gender" value="female">母的
+        
+    </fieldset>
+   
+    <fieldset>
+        <legend>生活資訊</legend>
+        興趣：
+        <label for="ball"><input type="checkbox" name="interest" value="Ball" id="ball">打球</label> <!--游標不會變-->
+        <input type="checkbox" name="interest" value="Run" checked>慢跑 <!--游標會變-->
+        <input type="checkbox" name="interest" value="TV" checked>看電視
+        </fieldset>
+    <hr>
+        <select name="season" id="" multiple>
+            <option value="spr">春天</option>
+            <option value="sum" selected>夏天</option> <!--預設選項-->
+            <option value="aut">秋天</option>
+            <option value="win">冬天</option>
+        </select>
+    <hr>
+    <textarea name="" id="" rows="5" cols="30">這些統計都有男性，收到程度一人狀況傢俱，管理系統色彩就是任務新浪還會都不為什麼推出上班股市方面，又有治理，難道最好打造找不到森林分享能源一副生活以前那個，天下小說兒童財富方式核心界面就有外掛，強化數量，判斷發出培養世界，就會詳細訊息點這裡下載嚴格，氣息屏。</textarea>
+    <hr>
+        <fieldset>
+            <legend>HTML5新增</legend>
+            <p>姓名：<input type="text" placeholder="username" autofocus></p>
+            <p>電子郵件：<input type="email"></p>
+            <p>網址：<input type="url"></p>
+            <p>數字：<input type="number" min="1" max="20" step="2"></p>
+            <p>日期：<input type="date"></p>
+            <p>時間：<input type="time"></p>
+            <p>程度：<input type="range"></p>
+            <p>顏色：<input type="color"></p>
+        </fieldset>
+    <p>
+        <input type="submit" value="登入">
+        <input type="reset" value="重置">
+    </p>
+
+ </form>
+ 
+</body>
+
+</html>

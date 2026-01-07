@@ -1,0 +1,397 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*up is reset*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+
+body {
+    background: #e9e5bf url(/images/bg.png) repeat-x;
+
+    nav {
+        text-align: center;
+
+        ul.menu {
+            margin-left: -2.5em;
+
+            li {
+                list-style-type: none;
+                /* border: 1px solid red; */
+
+                display: inline-block;
+                /* 顯示呈文字... */
+                width: 200px;
+                margin: 0 10px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    /* 去底線 */
+                    background-color: #58a985;
+                    display: block;
+                    /* 讓連結與整個li的block一樣大 */
+                    padding: 10px;
+
+
+
+                    &:link {
+                        color: green;
+                    }
+
+                    &:visited {
+                        color: orange;
+                    }
+
+                    &:hover {
+                        background-color: rgb(56, 233, 56);
+                        /* 滑鼠移到的顏色 */
+                        border: 1px solid #2fa511;
+                    }
+
+                    &:active {
+                        color: black;
+                    }
+
+                }
+            }
+        }
+    }
+
+    header {
+        text-align: center;
+        h1 {
+            color: white;
+            background-color: #58a985;
+            width: 380px;
+            height: 180px;
+            border-radius: 50%;
+            padding: 58px;
+            /* width: 380px;
+    padding: 99px; */
+
+            border: solid 6px #98deb7;
+            box-sizing: border-box;
+            /* 加入這一行才會回到width250px,不然會加border和padding值 x2,使得框框變大 */
+            margin: 65px auto;
+            /* 原本是上右下左 4個值,變2個是上下 和左右外距的值! 左右auto則會在網頁置中 */
+            font-size: 3em;
+            line-height: 1em;
+            text-shadow:
+                -1px -1px #ffffff,
+                1px 1px #333333,
+                0px 2px 16px #03f789,
+                0px 4px 18px #02c76e,
+                0px 6px 22px #028a4c,
+                0px 8px 28px #01522d,
+                0px 10px 36px #01311b;
+            box-shadow: 0px 11px 16px #081009;
+            font-family: "LXGW WenKai Mono TC", monospace;
+            background: linear-gradient(to bottom, #8cf0c5, #3b7c60);
+        }
+        .intro {
+            color: #01311b;
+            font-size: 1.6em;
+        }
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    div.content {
+        background-color: white;
+        width: 960px;
+        border: 1px solid #f7c7a3;
+        margin: 30px auto;
+        /* 外距 */
+        padding: 40px 80px;
+        /* 內距 */
+        box-sizing: border-box;
+
+        /* 讓內容和邊框一樣大 */
+
+        h2 {
+            color: #76db9b;
+            padding: 10px;
+            border: 1px dotted #76db9b;
+            border-left: 16px solid #76db9b;
+            padding: 10px;
+            border-radius: 10px 0 0 10px;
+
+        }
+
+        h3 {
+            color: #ff705b;
+            background-color: #fbf9cc;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 5px #6260e9 inset;
+            /* inset 是內部陰影用法 */
+        }
+
+        .imgL {
+            float: left;
+            margin-right: 20px;
+
+            border-radius: 6px;
+            border: 1px solid #5273bb;
+            padding: 6px 6px;
+            box-shadow: 0px 0px 16px 5px #390974 inset;
+        }
+
+        .imgR {
+            float: right;
+            margin-left: 10px;
+
+            border: 1px solid #f7c7a3;
+            padding: 6px 6px;
+            box-shadow: 0px 0px 16px 5px #cf5b03 inset;
+        }
+
+        .imgRAD {
+            border-radius: 50%;
+            border: 1px solid rgb(3, 245, 233);
+        }
+
+        .clear {
+            clear: both;
+            /* 左右兩邊都因float停止上漂 */
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        /*「更多介紹」連結設定*/
+        .more {
+            text-align: right;
+        }
+
+        /* 放在更多介紹超連結之後的東西 */
+        .more::after {
+            content: url(images/ico_arrow.png);
+            margin-left: 5px;
+            vertical-align: middle;
+            /* 垂直的指定 */
+        }
+
+        /*連結圖示設定*/
+        a[href^="mailto://"]::after {
+            content: url(images/ico_mail.png);
+            margin-left: 6px;
+            vertical-align: middle;
+        }
+
+        a[href*="192.168"]::after {
+            content: url(images/ico_blank.png);
+            margin-left: 6px;
+            vertical-align: middle;
+        }
+
+        div.content>section~section {
+            margin-top: 80px;
+        }
+
+        .btns {
+            text-align: center;
+
+            input {
+                width: 200px;
+                padding: 10px;
+                background-color: #fff;
+                border: 2px solid #f7c7a3;
+                border-radius: 6px;
+                font-size: 1em;
+                margin: 0 10px;
+
+                &:hover {
+                    background-color: #f6d9c9;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+table input[type="text"],
+table input[type="email"],
+table input[type="text"]:focus,
+table input[type="email"]:focus,
+table {
+    width: 100%;
+    border: 3px solid #f7c7a3;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border-spacing: 10px;
+
+    textarea {
+        border: 1px solid #cccccc;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1em;
+        border-radius: 6px;
+
+        &:focus {
+            background-color: rgb(241, 211, 182);
+            border: 3px solid rgb(70, 46, 90);
+            border-radius: 6px;
+            outline: none;
+        }
+    }
+
+    caption {
+        margin-bottom: 10px;
+    }
+
+    th {
+        background-color: #ffeeee;
+        text-align: left;
+        width: 10em;
+        border: 2px solid #f7c7a3;
+        padding: 10px 50px;
+    }
+
+    td {
+        border: 2px solid #f7c7a3;
+        padding: 10px 50px;
+
+    }
+
+}

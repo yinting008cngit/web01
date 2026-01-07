@@ -1,0 +1,40 @@
+star Web
+
+介紹一下星河宇宙！
+●關於本站
+●我家的星系
+●玩家介紹
+
+/*------------------------------*/
+
+關於本站
+歡迎光臨本站。
+這裡是介紹宇宙的星系。
+※未經許可，請勿擅自複製轉載。
+
+/*------------------------------*/
+
+我愛的星系
+
+●織女星系
+［相片］
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero dignissimos in voluptatum. Vel at saepe, nisi obcaecati, atque nam accusantium temporibus sed veritatis harum, quibusdam culpa voluptatum? Aliquam, ea.。
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, consequuntur.。
+→更多介紹
+
+●銀河星系
+［相片］
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum rem ea non assumenda? Assumenda delectus, quibusdam soluta obcaecati eaque accusamus libero eum necessitatibus, cumque dolore provident fuga quidem et perferendis?。
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ea?。
+→更多介紹
+
+
+
+○○○介紹
+［大頭照］
+暱稱 ：月大頭
+職業 ：飇網戰士
+mail ：yinting008@gmail.com
+Web ：http://192.168.60.18
+
+Copyright © ○○○ Web All Rights Reserved.

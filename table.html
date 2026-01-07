@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="styles/style.css">
+    <title>table</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1>星海捕夢網</h1>
+            <p class="intro">介紹一下星河宇宙！</p>
+        </header>
+
+        <div class="content">
+            <form>
+                    <p><b>*必填項目</b></p>
+
+                    <table>
+                        <caption>星系資料</caption>
+                            <tr>
+                                <th>星系名</th>
+                                <td><input type="text" width="" name="starName" required></td>
+                            </tr>
+                            <tr>
+                                <th>星齡</th>
+                                <td>
+                                    <select name="age">
+                                        <option value="">請選擇</option>
+                                        <option value="1">未滿1億年</option>
+                                        <option value="2">1~~5億年</option>
+                                        <option value="3">6~~10億年</option>
+                                        <option value="4">11~~50億年</option>
+                                        <option value="5">51~~100億年</option>
+                                        <option value="6" selected>101~~500億年</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>形狀</th>
+                                <td>
+                                    <input type="radio" name="gender" value="E" checked>橢圓星糸
+                                    <input type="radio" name="gender" value="S">螺旋星系
+                                    <input type="radio" name="gender" value="SB">棒旋星系
+                                    <input type="radio" name="gender" value="IRR">不規則星系
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>星系的特色</th>
+                                <td>
+                                    <input type="checkbox" name="fav" value="肉眼可見">肉眼可見
+                                    <input type="checkbox" name="fav" value="有外星生命">有外星生命
+                                    <input type="checkbox" name="fav" value="可移民">可移民
+                                    <input type="checkbox" name="fav" value="其他">其他
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>照片</th>
+                                <td><input type="file" ></td>
+                            </tr>
+                    </table>
+
+                    <table>
+                        <caption>玩家資料</caption>
+                        <tr>
+                            <th>愛好者名</th>
+                            <td><input type="text" name="name" required placeholder="滅霸">※可用暱稱</td>
+                        </tr>
+                        <tr>
+                            <th>郵件地址</th>
+                            <td><input type="email" name="email" required placeholder="sample@gmail.com">※請輸入半形文字</td>
+                        </tr>
+                        <tr>
+                            <th>留言</th>
+                            <td><textarea name="" id="" cols="56" rows="11"></textarea></td>
+                        </tr>
+                    </table>
+
+                <div class="btns">
+                    <input type="reset" value="清除重填">
+                    <input type="submit" value="送出">
+
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <p><small>Copyright © MarcoLai Web All Rights Reserved.</small></p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
